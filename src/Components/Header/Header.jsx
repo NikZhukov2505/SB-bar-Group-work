@@ -31,7 +31,7 @@ const Header = () => {
                         <NavLink className={({ isActive }) => isActive ? styles.act_link : styles.link} to='/contacts'>Контакты</NavLink>
                     </li>
                     <li>
-                        <NavLink className={({ isActive }) => isActive ? styles.act_link : styles.link} to='/sign'><img src={sign} alt="" />Войти</NavLink>
+                        <NavLink className={({ isActive }) => isActive ? styles.act_link : styles.link} to='/sign'><img className={styles.img__vector} src={sign} alt="" />Войти</NavLink>
                     </li>
                     <li>
                         <NavLink className={({ isActive }) => isActive ? styles.act_link : styles.link} to='/basket'><img src={basket} alt="" /></NavLink>

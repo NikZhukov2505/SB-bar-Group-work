@@ -4,9 +4,7 @@ justify-content: space-between;
 align-items: center;
 padding-bottom: 50px;
 }
-.card__footer{
 
-}
 footer{
     margin-top: 200px;
 }
@@ -27,4 +25,7 @@ footer{
     color: #FFFFFF;
     letter-spacing: 0.01em;
     line-height: 22px;
+}
+.card__footer img{
+    margin-bottom: 20px;
 }
