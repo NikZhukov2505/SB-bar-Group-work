@@ -1,0 +1,28 @@
+.wrapper {
+    margin-top: 30px;
+    z-index: 1;
+
+position: fixed;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+    
+
+}
+.act_link{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    font-family: Montserrat;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.link{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+}
