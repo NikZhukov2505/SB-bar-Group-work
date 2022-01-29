@@ -428,6 +428,7 @@ align-items: center;
    width: 700px;
    height: 695px;
    background: rgb(255, 255, 255);
+   align-items: center;
 
 }
 
@@ -442,10 +443,11 @@ align-items: center;
 .hun h1{
    font-family: Montserrat;
    font-size: 36px;
+   color: black;
 }
 .fife{
-   padding-top: 100px;
-   padding-left: 171px;
+   padding-left: 170px;
+   
 }
 .app{
    text-align: center;

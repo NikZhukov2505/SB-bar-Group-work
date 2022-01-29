@@ -4,7 +4,7 @@ body{
 .contacts .container{
     max-width: 90%;
     margin: 0 auto;
-    padding: 150px 0;
+    padding: 150px 70px 0 70px;
 }
 h4, p, h1 {
     font-family: Montserrat;
