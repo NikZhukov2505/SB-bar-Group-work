@@ -1,0 +1,62 @@
+body{
+    background: black;
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+h4, p, h1 {
+    font-family: Montserrat;
+    color: #FFFFFF;
+}
+h1{
+    font-size: 48px;
+    font-weight: 500;
+}
+.innerContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+h4 {
+    font-size: 21px;
+    margin: 0 0 15px  0;
+
+}
+.contacts h4{
+    margin: 50px 0 15px 0 ;
+}
+
+p{
+    font-size: 18px;
+    line-height: 21px;
+    margin: 5px 0;
+}
+h1{
+    margin-bottom: 50px;
+}
+
+
+
+/*============Картинка=============*/
+.image{
+    max-height: 400px;
+
+}
+.network{
+    cursor: pointer;
+}
+.network__insta{
+    height: 40px;
+    cursor: pointer;
+
+}
+.logo_network{
+    align-items: center;
+    max-width: 170px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    height: 30px;
+}
