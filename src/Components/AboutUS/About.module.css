@@ -1,0 +1,29 @@
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    flex: 0 1 30%;
+}
+.card p{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Montserrat;
+    padding-right: 40px;
+}
+.text{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 36px;
+    color: #fff;
+}
+.about{
+    margin-top: 60px;
+    background: rgba(0, 0, 0, 0.274);
+    padding-top: 150px;
+}
+.about h2{
+    padding-left: 10.5%;
+    margin-bottom: 40px;
+}

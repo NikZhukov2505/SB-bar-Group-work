@@ -9,6 +9,7 @@ import Contacts from './Components/Contacts/Contacts';
 import Sign from './Components/Sign/Sign';
 import Basket from './Components/Basket/Basket';
 import Order from './Components/Order/Order';
+import About from './Components/AboutUS/About';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/menu' element={<Menu />} />
           <Route path='/promotion' element={<Promotion />} />
+          <Route path='/about' element={<About />} />
           <Route path='/contacts' element={<Contacts />} />
           <Route path='/sign' element={<Sign />} />
           <Route path='/basket' element={<Basket />} />
