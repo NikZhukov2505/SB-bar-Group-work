@@ -1,0 +1,97 @@
+ 
+.promotion {
+    background-color:#000;
+    position: relative;
+}
+.bg  {
+    background-image: url(./promImg/bg.png) ;
+    background-size: 80%;
+    background-repeat: repeat-y;
+    background-position: center;
+   
+}
+
+
+
+.wrapper {    
+    top: 0;
+    left: 0;
+    margin: 60px 7% ;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+.title {
+    font-size: 48px;
+}
+
+/*------------ card's  styles   ----------- */
+    .card {
+        display: flex;
+        margin: 50px 0;
+    }
+
+   .change  {
+        flex-direction: row-reverse;
+        text-align: end;
+    } 
+
+
+    .cardImg {
+        flex-grow: 1;
+        flex-shrink: 10%;
+
+    }
+
+    .cardImg img {
+        width: 40vw;
+       object-fit: cover;
+    }
+
+    .cardContent {
+        flex-grow: 1;
+        margin: 5px 60px;
+    }
+
+    .cardContent h2 {
+        font-size: 32px;
+        margin:  10px 0;
+    }
+
+    .cardContent p {
+        font-size: 18px;
+        margin: 30px 0;
+    }
+
+    .price {
+        margin: 40px 0;
+        font-size: 22px;
+        position: relative;
+    }
+    .price span {
+        color: #B22727;
+    }
+
+    .price span:first-child::before {
+        content: '';
+        width: 100px; ;
+        position: absolute;
+        top: 50%;
+        border-top: 1px solid;
+        color: #fff;
+    }
+
+    .price span:nth-child(2) {
+        margin: 0 20px;
+        color: #54B129;
+    }
+
+    .buttons {
+        color: #fff;
+        border-color: #fff;
+        padding: 10px 30px;
+        margin: 20px 0;
+    }
+
+/* ---------------------------------------- */
+
+
