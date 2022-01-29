@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+.order{
+background: rgba(105, 218, 0, 0.005);
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:  rgba(0, 0, 0, 0.8);
+
+}
+.top h1 {
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 36px;
+   color: rgba(0, 0, 0, 1);
+}
+
+
+
+.order_wrapper{
+   margin-top: 320px;
+   margin-bottom: 710px;
+width: 50%;
+height:1409px;
+background: rgb(255, 255, 255);
+overflow:auto;
+     
+}
+
+
+.folder{
+   padding-left: 95%;
+  padding-top: 10px;
+}
+.top{
+   text-align: center;
+}
+.name{
+  margin-top: 20px;
+   margin-left: 50px;
+
+line-height: 25px;
+}
+.name h3{
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 14px;
+   color: rgba(79, 78, 78, 1);
+}
+.name input{
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 18px;
+   color: rgba(0, 0, 0, 1);
+}
+#coc{
+   top: 10px;
+   width: 600px;
+   height: 50px;
+   padding-left: 10px;
+   
+}
+.phone{
+margin-top: 25px;
+line-height: 30px;
+padding-left: 50px;
+}
+.phone input{
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 18px;
+   color: rgba(79, 78, 78, 1);
+}
+.phone h3{
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 14px;
+   color: rgba(0, 0, 0, 1);
+}
+
+#pipe{
+
+  top: 10px;
+   width: 600px;
+   height: 50px;
+   padding-left: 10px;
+   
+}
+input{
+  border: 1px solid rgb(0, 0, 5); 
+}
+.check{
+display: flex;
+margin-left: 50px;
+margin-top:30px;
+
+
+}
+.adress{
+   display: flex;
+}
+ 
+.p h3{
+  font-family: Montserrat;
+   font-weight: 400;
+   font-size: 18px;
+   color: rgba(0, 0, 0, 1);
+}
+#array{
+   width:334px;
+   height: 50px;
+   padding-left: 10px;
+}
+#homes{
+ 
+   width: 214px;
+   height: 50px;
+   text-align: center;
+
+}
+.arr{
+  margin-top: 40px;
+  line-height: 25px;
+  margin-left: 50px;
+}
+.arr h3{
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 14px;
+   color: rgba(0, 0, 0, 1);
+}
+.arr input{
+     font-family: Montserrat;
+   font-weight: 400;
+   font-size: 18px;
+   color: rgba(79, 78, 78, 1);
+}
+
+.home{
+   margin-top:40px ;
+   line-height: 25px;
+   margin-left: 50px;
+
+}
+.home input{ 
+  font-family: Montserrat;
+   font-weight: 400;
+   font-size: 18px;
+   color: rgba(79, 78, 78, 1);
+}
+.home h3{
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 14px;
+   color: rgba(0, 0, 0, 1);
+}
+.podez{
+   display: flex;
+}
+.user{
+margin-top: 40px;
+  line-height: 25px;
+  margin-left: 50px;
+}
+
+.user h3{
+     font-family: Montserrat;
+   font-weight: 400;
+   font-size: 14px;
+   color: rgba(0, 0, 0, 1);
+}
+.user input{
+    font-family: Montserrat;
+   font-weight: 400;
+   font-size: 18px;
+   color: rgba(79, 78, 78, 1);
+}
+.username{
+   margin-top:40px ;
+   line-height: 25px;
+   margin-left: 50px;
+
+}
+.username h3{
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 14px;
+   color: rgba(0, 0, 0, 1);
+}
+.username input{
+font-family: Montserrat;
+   font-weight: 400;
+   font-size: 18px;
+   color: rgba(79, 78, 78, 1);
+}
+#pods_1{
+  width:252px;
+   height: 50px;
+   padding-left: 10px;
+}
+#pods_2{
+ width: 300px;
+   height: 50px;
+   padding-left: 10px;
+}
+
+#comment{
+    width:600px;
+   height: 106px;
+   font-size: 18px;
+   padding-left: 10px;
+}
+.com{
+   margin-top: 40px;
+  line-height: 25px;
+  margin-left: 50px;
+}
+
+.com h3{
+      font-family: Montserrat;
+   font-weight: 400;
+   font-size: 14px;
+   color: rgba(0, 0, 0, 1);
+}
+.com input{
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 18px;
+   color: rgba(79, 78, 78, 1);
+}
+.promo{
+   margin-top: 40px;
+  line-height: 25px;
+  margin-left: 50px;
+}
+.promo h3{
+font-family: Montserrat;
+   font-weight: 400;
+   font-size: 14px;
+   color: rgba(0, 0, 0, 1);
+}
+.promo input{
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 18px;
+   color: rgba(79, 78, 78, 1);
+}
+#promocod{
+    width:252px;
+   height: 50px;
+   padding-left: 10px;
+}
+.many{
+   display: flex;
+   margin-left: 50px;
+   margin-top: 45px;
+   margin-bottom: 50px;
+}
+.many h3{
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 18px;
+   color: rgba(0, 0, 0, 1);
+}
+.radio input{
+margin-left: 10px;
+}
+.radio span {
+   padding-left: 10px;
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 16px;
+   color: rgba(0, 0, 0, 1);
+}
+.f span{
+   padding-left: 10px;
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 16px;
+   color: rgba(0, 0, 0, 1);
+}
+.f input{
+   margin-left: 10px;
+}
+
+
+.didle{
+ display: flex;
+}
+
+#card_1{
+   width: 225px;
+   height: 50px;
+   line-height: 25px;
+   text-align: center;
+}
+#card_2{
+width: 56px;
+height: 50px;
+text-align: center;
+line-height: 25px;
+ 
+
+}
+#card_3{
+width: 109px;
+height: 50px;
+text-align: center;
+
+}
+.lord_1{
+   margin-left: 50px;
+   line-height: 25px;
+}
+.lord_1 h3{
+ font-family: Montserrat;
+   font-weight: 400;
+   font-size: 14px;
+   color: rgba(0, 0, 0, 1);
+}  
+.lord_1 input{
+  font-family: Montserrat;
+   font-weight: 400;
+   font-size: 18px;
+   color: rgba(79, 78, 78, 1);
+}
+.lord_2{
+   margin-left: 60px;
+   line-height: 25px;
+}
+.lord_2 h3{
+font-family: Montserrat;
+   font-weight: 400;
+   font-size: 14px;
+   color: rgba(0, 0, 0, 1);
+}
+.lord_2 input{
+  font-family: Montserrat;
+   font-weight: 400;
+   font-size: 18px;
+   color: rgba(79, 78, 78, 1);
+}
+
+.lord_3{
+   line-height: 25px;
+   margin-left: 50px;
+}
+.lord_3 h3{
+font-family: Montserrat;
+   font-weight: 400;
+   font-size: 14px;
+   color: rgba(0, 0, 0, 1);
+}
+.lord_3 input{
+  font-family: Montserrat;
+   font-weight: 400;
+   font-size: 18px;
+   color: rgba(79, 78, 78, 1);
+}
+.kart_1{
+ margin-left: 50px;
+   line-height: 25px;
+    margin-top: 52px;
+}
+.kart_1 h3{
+font-family: Montserrat;
+   font-weight: 400;
+   font-size: 14px;
+   color: rgba(0, 0, 0, 1);
+}
+.kart_1 input{
+  font-family: Montserrat;
+   font-weight: 400;
+   font-size: 18px;
+   color: rgba(79, 78, 78, 1); 
+}
+
+#kart_2{
+width: 490px;
+height: 50px;
+padding-left: 10px;
+
+}
+.many_1{
+display: flex;
+   margin-left: 50px;
+   margin-top: 50px;
+
+}
+.many_1 h3{
+font-family: Montserrat;
+   font-weight: 400;
+   font-size: 24px;
+   color: rgba(0, 0, 0, 1);
+}
+.many_1 h2{
+   font-family: Montserrat;
+   font-weight: 700;
+   font-size: 24px;
+   color: rgba(0, 0, 0, 1);
+   padding-left: 20px;
+}
+
+.zakaz{
+ text-align: center;
+ margin-top: 80px;
+ 
+ }
+
+ .zakaz button{
+    font-family: Montserrat;
+   font-weight: 400;
+   font-size: 25px;
+   color: rgba(0, 0, 0, 1);
+    width: 209px;
+   height: 60px;
+   border: 1px solid #000;
+
+ }
+ .plach{
+    width: 2439px;
+    height: 1440px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.klach{
+   width: 700px;
+   height: 695px;
+   background: rgb(255, 255, 255);
+
+}
+
+.iks{
+ padding-left: 95%;
+ padding-top: 10px;
+}
+.hun{
+   padding-top: 60px;
+   text-align: center;
+}
+.hun h1{
+   font-family: Montserrat;
+   font-size: 36px;
+}
+.fife{
+   padding-top: 100px;
+   padding-left: 171px;
+}
+.app{
+   text-align: center;
+   padding-top: 90px;
+
+}
+.app h3{
+font-family: Montserrat;
+   font-weight: 400;
+   font-size: 24px;
+   color: rgba(0, 0, 0, 1);
+}
