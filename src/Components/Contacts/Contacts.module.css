@@ -1,9 +1,10 @@
 body{
     background: black;
 }
-.container{
+.contacts .container{
     max-width: 90%;
     margin: 0 auto;
+    padding: 150px 0;
 }
 h4, p, h1 {
     font-family: Montserrat;
@@ -16,6 +17,7 @@ h1{
 .innerContainer{
     display: flex;
     justify-content: space-between;
+    
 }
 
 
@@ -40,10 +42,6 @@ h1{
 
 
 /*============Картинка=============*/
-.image{
-    max-height: 400px;
-
-}
 .network{
     cursor: pointer;
 }

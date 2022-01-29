@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from "../Sign.module.css";
 import logocenter from "../../../Images/Jyrgal/logocenter.png";
+import { Link } from 'react-router-dom';
 
 const Signin = () => {
     return (
@@ -11,16 +12,16 @@ const Signin = () => {
                     <div>
                         <p>Ваша электронная почта</p>
                         <input className={`${styles.enter} ${styles.enter1}`} type="text"
-                               placeholder='Введите ваш адрес эл. почты'/>
+                            placeholder='Введите ваш адрес эл. почты' />
                     </div>
                     <div>
                         <p>Ваш пароль</p>
-                        <input className={styles.enter} type="text" placeholder='Введите ваш пароль'/>
+                        <input className={styles.enter} type="text" placeholder='Введите ваш пароль' />
                     </div>
                 </div>
                 <div className={styles.remember}>
                     <div className={styles.check__remember}>
-                        <input className={styles.box} type="checkbox" id="check"/>
+                        <input className={styles.box} type="checkbox" id="check" />
                         <label htmlFor="check"><p className={styles.box__text}>Запомнить меня</p></label>
                     </div>
                     <div>
@@ -28,7 +29,7 @@ const Signin = () => {
                     </div>
                 </div>
                 <div className={styles.btn__wrap}>
-                    <button className={styles.btn}>Войти</button>
+                    <Link to='/'><button className={styles.btn}>Войти</button></Link>
                 </div>
             </div>
         </div>
