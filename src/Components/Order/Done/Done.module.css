@@ -1,0 +1,15 @@
+.plash{
+background: rgba(105, 218, 0, 0.005);
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:  rgba(0, 0, 0, 0.8);
+}
+.klach{
+ margin-top: 320px;
+   margin-bottom: 710px;
+width: 50%;
+height:1409px;
+background: rgb(255, 255, 255);
+overflow:auto;
+}
