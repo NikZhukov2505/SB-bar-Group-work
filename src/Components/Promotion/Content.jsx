@@ -61,10 +61,8 @@ export const products = [
         discountprice: '500',
         price: '1000'
 
-    },
-    
+    },   
 
-    // `${styles.card} ${styles.change}`
 
 ]
 
