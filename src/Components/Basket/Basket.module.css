@@ -1,0 +1,212 @@
+@font-face {
+	font-family: "Montserrat";
+	src: url(./fonts/Montserrat-Regular.ttf);
+	font-weight:500;
+}
+.main{
+	background-image: url(../../Images/Emir/bg.png);
+}
+.title{
+	color: #fff;
+	font-family: "Montserrat";
+	font-size: 48px;
+	margin: 0 0 40px 0;
+}
+.cart{
+	max-width: 90%;
+	margin: 0 auto;
+	padding: 80px 0 0 0;
+}
+.dinner{
+	display: flex;
+	max-width: 90%;
+	margin: 0 0 80px 0;
+	position: relative;
+}
+.dinnerInfo{
+	margin: 0 0 0 40px;
+	width: 100%;
+}
+.dinnerName{
+	color: #fff;
+	font-family: "Montserrat";
+	font-size: 36px;
+	margin: 0 0 70px 0;
+	line-height: 1.2;
+}
+.dinnerOption{
+	display: flex;
+	justify-content: space-between;
+}
+
+.dinnerQuantity p:first-child{
+	color: #fff;
+	font-family: "Montserrat";
+	font-size: 24px;
+	margin: 0 0 20px 0;
+}
+
+.quantityBtns{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.quantityBtns button {
+	background-color: rgba(0, 0, 0, 0);
+	width: 12px;
+	height: 12px;
+}
+.minus, .plus{
+	position: relative;
+}
+.minus ::before{
+	content: '';
+	width: 12px;
+	height: 2px;
+	background-color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 0;
+}
+
+.plus ::before,
+.plus ::after {
+	content: '';
+	width: 12px;
+	height: 2px;
+	background-color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 0;
+}
+.plus ::after{
+	transform: rotate(90deg);
+}
+.quantityBtns p {
+	color: #fff;
+	font-family: "Montserrat";
+	font-weight: bold;
+	font-size: 24px;
+	margin: 0 12px;
+}
+
+.dinnerPrice, 
+.dinnerSum{
+	text-align: center;
+}
+.dinnerPrice p,
+.dinnerSum p{
+	color: #fff;
+	font-family: "Montserrat";
+	font-size: 24px;
+	margin: 0 0 20px 0;
+}
+.dinnerPrice strong,
+.dinnerSum strong{
+	color: #fff;
+	font-family: "Montserrat";
+	font-size: 24px;
+}
+.dinerTop{
+	display: flex;
+	justify-content: space-between;
+}
+.close{
+	width: 22px;
+	height: 22px;
+	background-color: rgba(255, 255, 255, 0);
+	position: relative;
+}
+.close::before,
+.close::after{
+	content: "";
+	width: 31px;
+	height: 2px;
+	background-color: #fff;
+	position: absolute;
+	left: -4px;
+}
+.close::before{
+	transform: rotate(45deg);
+}
+.close::after{
+	transform: rotate(-45deg);
+}
+
+.order{
+	padding: 20px 0 0 0;
+}
+
+.orderTitle{
+	color: #fff;
+	font-family: "Montserrat";
+	font-size: 24px;
+	margin: 0 0 24px 0;
+}
+.orderBtn{
+	font-family: "Montserrat";
+	font-size: 20px;
+	color: #fff;
+	background-color: rgba(255, 255, 255, 0);
+	border: 1px solid #fff;
+	padding: 18px 50px;
+	margin: 50px 0 0 0;
+}
+.recommendations{
+	max-width: 90%;
+	margin: 0 auto;
+	padding: 80px 0 0 0;
+}
+.recTitle{
+	color: #fff;
+	font-family: "Montserrat";
+	font-size: 36px;
+	margin: 0 0 40px 0;
+}
+
+.recList {
+	display: flex;
+	margin: 0 -25px;
+}
+.recdinner {
+	flex-basis: 25%;
+	padding: 0 25px;
+}
+.recdinner img {
+	width: 100%;
+}
+.recdinner h3{
+	font-family: "Montserrat";
+	color: #fff;
+	font-size: 18px;
+	line-height: 22px;
+	margin: 10px 0 0 0;
+}
+.recdinner p {
+	font-family: "Montserrat";
+	color: #fff;
+	line-height: 1.3;
+	font-size: 14px;
+	margin: 7px 0 0 0;
+
+}
+
+.recOptions{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 15px 0;
+}
+.recOptions strong{
+	font-family: "Montserrat";
+	color: #fff;
+	font-size: 16px;
+}
+.recOptions button{
+	background-color: rgba(255, 255, 255, 0);
+	border: 1px solid #fff;
+	font-family: "Montserrat";
+	font-size: 14px;
+	color: #fff;
+	padding: 11px 15px;
+}
