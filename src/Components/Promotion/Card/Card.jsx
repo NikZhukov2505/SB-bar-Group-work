@@ -15,26 +15,22 @@ const Card = ( {product}) => {
                         <div  className={styles.cardImg}>
                             <img src={el.img} alt="" />
                         </div>
-                        <div className={styles.cardContent}>
-                        <h2>
-                            {el.title}
-                        </h2>
-                         <p>
-                            {el.content} 
-                        </p>
-                        <div className={styles.price}>
-                             <span>{el.price} сом </span>
-                             <span>{el.discountprice} сом</span>
-                        </div>
-                        <Button  className={ styles.buttons } variant="outlined">В корзину</Button>
+                            <div className={styles.cardContent}>
+                                <h2>
+                                    {el.title}
+                                </h2>
+                                <p>
+                                    {el.content} 
+                                </p>
+                                <div className={styles.price}>
+                                    <span>{el.price} сом </span>
+                                    <span>{el.discountprice} сом</span>
+                                </div>
+                                <Button  className={ styles.buttons } variant="outlined">В корзину</Button>
+                            </div>            
+                                   
+                    
                     </div>
-
-                    
-                    
-
-                    
-                    
-                </div>
 
                 </div>
             )  
@@ -42,11 +38,8 @@ const Card = ( {product}) => {
             )
         }     
        </div>
-       
-
-        
-        
-       
+           
+               
     );
 };
 
