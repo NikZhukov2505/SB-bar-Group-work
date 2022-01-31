@@ -30,3 +30,10 @@ nav{
     /* margin-right: 15px; */
     padding-right: 15px;
 }
+.li__img{
+    list-style: none;
+    
+}
+.li__img a{
+    display: flex;
+}

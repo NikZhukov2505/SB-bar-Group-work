@@ -105,7 +105,8 @@ const Order = () => {
                             <input type="text" id={styles.kart_2} placeholder='Введите имя и фамилию' />
                         </div>
                         <div className={styles.many_1}>
-                            <h3>Итоговая стоимость:</h3>   <h2>6000 сомов</h2>
+                            <h3>Итоговая стоимость:</h3>
+                            <h2>6000 сомов</h2>
                         </div>
 
                         <div className={styles.zakaz}>

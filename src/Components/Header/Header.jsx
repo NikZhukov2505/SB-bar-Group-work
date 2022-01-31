@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import styles from './Header.module.css'
 import sign from './../../Images/Jyrgal/sign.png'
 import basket from './../../Images/Emir/Basket.png'
@@ -13,9 +13,6 @@ const Header = () => {
 
                 <nav>
                     <li>
-                        <NavLink className={({ isActive }) => isActive ? styles.act_link : styles.link} to='/'>Home</NavLink>
-                    </li>
-                    <li>
                         <NavLink className={({ isActive }) => isActive ? styles.act_link : styles.link} to='/menu'>Меню</NavLink>
                     </li>
                     <li>
@@ -25,20 +22,20 @@ const Header = () => {
                         <NavLink className={({ isActive }) => isActive ? styles.act_link : styles.link} to='/about'>О нас</NavLink>
                     </li>
                     <div>
-                        <img src={logo} alt="" />
+                        <Link to="/"><img src={logo} alt="" /></Link>
                     </div>
                     <li>
                         <NavLink className={({ isActive }) => isActive ? styles.act_link : styles.link} to='/contacts'>Контакты</NavLink>
                     </li>
-                    <li>
-                        <NavLink className={({ isActive }) => isActive ? styles.act_link : styles.link} to='/sign'><img className={styles.img__vector} src={sign} alt="" />Войти</NavLink>
+                    <li className={styles.li__img}>
+                        <NavLink className={({ isActive }) => isActive ? styles.act_link : styles.link} to='/sign'><img className={styles.img__vector} src={sign} alt="" /><p>Войти</p></NavLink>
                     </li>
                     <li>
                         <NavLink className={({ isActive }) => isActive ? styles.act_link : styles.link} to='/basket'><img src={basket} alt="" /></NavLink>
                     </li>
-                    <li>
+                    {/* <li>
                         <NavLink className={({ isActive }) => isActive ? styles.act_link : styles.link} to='/order'>Order</NavLink>
-                    </li>
+                    </li> */}
                 </nav>
             </div>
 

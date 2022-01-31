@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Basket.module.css'
 import dinner from '../../Images/Emir/cartitem.png'
 import recDinner from '../../Images/Emir/cartRec.png'
+import { Link } from 'react-router-dom';
 
 
 const Basket = () => {
@@ -93,7 +94,7 @@ const Basket = () => {
                 <article className={styles.order}>
                     <h3 className={styles.orderTitle} >Общая стоимость: <strong> 6000 cомов</strong></h3>
                     <h3 className={styles.orderTitle} >Количество элементов: <strong> 6</strong></h3>
-                    <button className={styles.orderBtn}>Оформить заказ</button>
+                    <Link to="/order"><button className={styles.orderBtn}>Оформить заказ</button></Link>
                 </article>
             </section>
             <section className={styles.recommendations}>

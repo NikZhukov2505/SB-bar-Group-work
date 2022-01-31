@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed:ital,wght@1,300&display=swap');
 
-
-
 body{
     background: black;
 }
@@ -19,7 +17,6 @@ body{
 }
 .header_nav {
     display: flex;
-    justify-content: space-between;
     flex: 0 1 100%;
     font-size: 16,5px;
     font-style: normal;
@@ -38,15 +35,13 @@ body{
     justify-content: space-between;
     align-items: center;
     flex: 0 1 100%;
-    margin-top: 50px;
-
-
 }
 .header_link {
     font-family: 'Montserrat', sans-serif;
 
     font-weight: 600;
     color: white;
+    transition: 0.5s;
 }
 .header_link:hover {
     border-top: 4px solid #fff;
