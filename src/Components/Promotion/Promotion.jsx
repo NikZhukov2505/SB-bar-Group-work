@@ -1,11 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './Promotion.module.css'
+import Card from './Card/Card';
+import {products}  from  './Content'
 
 const Promotion = () => {
-    return (
-        <div>
+    
+    const [product, setProduct] = useState(products)
 
-        </div>
+
+    return (
+        <section className={styles.promotion}>
+            <div className={styles.bg}>              
+                <div className={styles.wrapper}>
+                    <h2 className={styles.title} >Акции</h2>
+                    <Card product = {product} />
+                 </div>
+            </div>
+        </section>
     );
 };
 
